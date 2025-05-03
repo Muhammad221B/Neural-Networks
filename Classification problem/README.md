@@ -10,15 +10,22 @@ into training (50%), testing set (30%) and validation data (20%). Use the cross-
 objective/ loss function. Evaluate the performance of your classifier (Confusion Matrix). 
 ## Solution steps:  
 1- Read the data  
+
 2- Divide the data into training data (50%), validation data (20%), and testing 
 data (30%).  
+
 3- Build keras network (input layer = 4 , dense layer (number of neuron = 10, 
 activation function = sigmoid), dense output layer (number of neuron =3, 
 activation function = softmax). 
-4- Compile the model with loss= cross-entropy, optimization = adam  
+
+4- Compile the model with loss= cross-entropy, optimization = adam.
+
 5- Fit the model using number of epochs = 500.
+
 6- Draw a curve to represent the epochs on x axis and the error on the validation 
 sample on y-axis, to determine the epoch number that has the better model. 
+
 7- Predicted the y values by using the test data.  
+
 8- Compare the actual values with the predicted values and compute accuracy of 
 the model through confusion matrix. 
