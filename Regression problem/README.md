@@ -6,7 +6,7 @@ in the output layer. Divide the data into training (70%), testing set (15%) and
 validation data (15%). Use the Mean Square Error objective/ loss function. Evaluate 
 the performance of the designed network. 
 
-### Solution steps:  
+## Solution steps:  
 1- Generate the data (1000 values) 
 
 2- Divide the above data into training data (70%), validation data (15%), and 
