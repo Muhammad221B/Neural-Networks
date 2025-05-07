@@ -1,4 +1,4 @@
-##  Regression problem  
+#  Regression problem  
 Approximate the function y = sin (2* π x1) x2 x3 x4 𝑒−(𝑥1+ 𝑥2+ 𝑥3+𝑥4 ). With a 4- 
 50–1 network. Generate 1000 values in each input dimension in the interval [-1 … 1]. 
 The network has sigmoid activation functions in the hidden layer and linear function 
@@ -6,7 +6,7 @@ in the output layer. Divide the data into training (70%), testing set (15%) and
 validation data (15%). Use the Mean Square Error objective/ loss function. Evaluate 
 the performance of the designed network. 
 
-###Solution steps:  
+### Solution steps:  
 1- Generate the data (1000 values) 
 
 2- Divide the above data into training data (70%), validation data (15%), and 
